@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreateValidImplementation\Cat.cs" />
+    <Compile Include="ConcreateValidImplementation\Cow.cs" />
+    <Compile Include="ConcreateValidImplementation\Dog.cs" />
+    <Compile Include="Fabric\ZooFabric.cs" />
+    <Compile Include="NullObjectPattern\Animal.cs" />
+    <Compile Include="NullObjectPattern\IAnimal.cs" />
+    <Compile Include="NullObjectPattern\NullAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

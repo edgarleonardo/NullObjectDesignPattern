@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using NullObjectDesignPattern.Fabric;
 
 namespace NullObjectDesignPattern
 {
@@ -10,6 +7,12 @@ namespace NullObjectDesignPattern
     {
         static void Main(string[] args)
         {
+            var animalSearches = new string[] { "Cow", "Cat", "Dog", "Whale", "Rooster", "Chicken" };
+            foreach(var animal in animalSearches)
+            {
+                ZooFabric.GetAnimal(animal).Sound();
+            }
+            Console.ReadKey();
         }
     }
 }
